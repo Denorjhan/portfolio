@@ -1,0 +1,224 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon } from "lucide-react";
+
+export const DATA = {
+  name: "Denorjhan Balendra",
+  shortName: "Deno",
+  initials: "DB",
+  url: "https://denorjhan.com",
+  description:
+    "AI Engineer specializing in LLM Agents, RAG, and cloud-native architectures.",
+  summary:
+    "AI Engineer with 7+ years of experience in AI, Kubernetes, and full-stack development. Built scalable APIs, secure multi-agent AI workflows, and cloud infrastructure that enabled AI products to ship 80% faster. Deep expertise in LLMs, DevOps automation, and cloud-native architectures.",
+  avatarUrl: "/me.png",
+  skills: [
+    { name: "Python", icon: "/skills/python.webp" },
+    { name: "TypeScript", icon: "/skills/typescript.webp" },
+    { name: "React", icon: "/skills/react.webp" },
+    { name: "Next.js", icon: "/skills/nextjs.webp" },
+    { name: "Go", icon: "/skills/go.webp" },
+    { name: "LangChain", icon: "/skills/langchain.webp" },
+    { name: "LangGraph", icon: "/skills/langgraph.webp" },
+    { name: "RAG", icon: "/skills/rag.webp" },
+    { name: "FastAPI", icon: "/skills/fastapi.webp" },
+    { name: "PostgreSQL", icon: "/skills/postgresql.webp" },
+    { name: "AWS", icon: "/skills/aws.webp" },
+    { name: "Terraform", icon: "/skills/terraform.webp" },
+    { name: "Docker", icon: "/skills/docker.webp" },
+    { name: "Kubernetes", icon: "/skills/kubernetes.webp" },
+    { name: "Prometheus", icon: "/skills/prometheus.webp" },
+    { name: "Grafana", icon: "/skills/grafana.webp" },
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+  ],
+  contact: {
+    email: "deno.b@outlook.com",
+    tel: "+16475426850",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/Denorjhan",
+        icon: Icons.github,
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://linkedin.com/in/denorjhan",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+      Email: {
+        name: "Email",
+        url: "/api/contact",
+        icon: Icons.email,
+        navbar: true,
+      },
+    },
+  },
+
+  work: [
+    {
+      company: "SV Media",
+      href: "https://svmedia.com",
+      badges: [],
+      location: "Scarborough, Ontario",
+      title: "AI Engineer",
+      logoUrl: "/svmedia.webp",
+      start: "November 2021",
+      end: "Present",
+      description:
+        "Architected and lead a full-stack agentic AI BI platform enabling 50+ non-technical users to query enterprise data conversationally—built with LangGraph for multi-agent orchestration, pgvector RAG for semantic search, ClickHouse for sub-second analytics, and a Next.js frontend. Built async Python FastAPIs for an internal LLMOps platform. Reduced AI infrastructure provisioning time by 80% with Terraform modules. Built CI/CD pipelines using GitHub Actions to deploy to Kubernetes.",
+    },
+    {
+      company: "IBM",
+      href: "https://ibm.com",
+      badges: [],
+      location: "Markham, Ontario",
+      title: "Platform Engineer",
+      logoUrl: "/ibm.webp",
+      start: "May 2020",
+      end: "October 2021",
+      description: "",
+    },
+    {
+      company: "Scotiabank",
+      href: "https://scotiabank.com",
+      badges: [],
+      location: "North York, Ontario",
+      title: "Software Engineer Intern",
+      logoUrl: "/scotiabank.webp",
+      start: "September 2019",
+      end: "April 2020",
+      description:
+        "Decreased inbound call center ticket volume by 17% through the deployment of an AI chatbot powered by IBM Watson. Developed automated testing scripts using Selenium and Java.",
+    },
+    {
+      company: "Tamil One",
+      href: "https://tamilone.com",
+      badges: [],
+      location: "Scarborough, Ontario",
+      title: "Software Engineer",
+      logoUrl: "/tamilone.png",
+      start: "August 2018",
+      end: "September 2019",
+      description:
+        "Implemented comprehensive unit and regression testing with Pytest for an intranet ticketing system. Developed and implemented REST APIs, testing and documenting endpoints with Postman.",
+    },
+  ],
+  education: [
+    {
+      school: "McMaster University",
+      href: "https://mcmaster.ca",
+      degree: "Master of Science in Artificial Intelligence",
+      logoUrl: "/mcmaster.png",
+      start: "2022",
+      end: "2025",
+    },
+    {
+      school: "McMaster University",
+      href: "https://mcmaster.ca",
+      degree: "Bachelor of Engineering in Software Engineering",
+      logoUrl: "/mcmaster.png",
+      start: "2018",
+      end: "2022",
+    },
+  ],
+  certifications: [
+    {
+      name: "AWS Certified Solutions Architect – Associate (SAA-C03)",
+      issuer: "Amazon Web Services",
+      logoUrl: "/aws.png",
+    },
+    {
+      name: "Cisco CCNA Routing & Switching",
+      issuer: "Cisco",
+      logoUrl: "/cisco.png",
+    },
+  ],
+  projects: [
+    {
+      title: "Gen AI Business Intelligence",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        "Application leveraging Generative AI and RAG to transform natural language queries into AWS Athena SQL queries, execute them, and automatically generate interactive charts, graphs, and summaries to identify key trends and insights from large datasets.",
+      technologies: [
+        "Generative AI",
+        "RAG",
+        "AWS Athena",
+        "S3",
+        "AWS Glue",
+        "Streamlit",
+        "Python",
+      ],
+      links: [
+        {
+          icon: <Icons.github className="size-3" />,
+          type: "Source",
+          href: "https://github.com/Denorjhan/ai-data-analysis",
+        },
+      ],
+      image: "",
+      video: "/videos/ai-data-analysis-video.mp4",
+    },
+    {
+      title: "Agentic AI AWS Automation",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        "Multi-agent LLM system using LangChain to lower the skill barrier of AWS. Converts user requirements into executable Python scripts with Boto3, allowing users to preview and run AI-generated infrastructure-as-code in a secure, containerized sandbox environment.",
+      technologies: [
+        "LangChain",
+        "Python",
+        "Boto3",
+        "Kubernetes",
+        "RabbitMQ",
+        "PostgreSQL",
+        "Docker",
+        "Helm",
+        "Prometheus",
+        "Grafana",
+      ],
+      links: [
+        {
+          icon: <Icons.github className="size-3" />,
+          type: "Source",
+          href: "https://github.com/Denorjhan/AICloudOps",
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "MedPrep",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        "Full-stack medical question bank platform for CCFP exam preparation, built in collaboration with a medical doctor. Features customizable practice sessions, performance analytics with learning streaks, topic-based progress tracking, and comprehensive dashboards.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Stripe",
+        "Recharts",
+      ],
+      links: [
+        {
+          icon: <Icons.globe className="size-3" />,
+          type: "Website",
+          href: "https://medprep.denorjhan.com",
+        },
+      ],
+      image: "",
+      video: "",
+    },
+  ],
+  hackathons: [],
+} as const;
