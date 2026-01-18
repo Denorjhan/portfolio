@@ -10,7 +10,7 @@ export const DATA = {
     "AI Engineer specializing in LLM Agents, RAG, and cloud-native architectures.",
   summary:
     "AI Engineer with 7+ years of experience in AI, Kubernetes, and full-stack development. Built scalable APIs, secure multi-agent AI workflows, and cloud infrastructure that enabled AI products to ship 80% faster. Deep expertise in LLMs, DevOps automation, and cloud-native architectures.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     { name: "Python", icon: "/skills/python.webp" },
     { name: "TypeScript", icon: "/skills/typescript.webp" },
@@ -149,7 +149,7 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Application leveraging Generative AI and RAG to transform natural language queries into AWS Athena SQL queries, execute them, and automatically generate interactive charts, graphs, and summaries to identify key trends and insights from large datasets.",
+        "Leveraging Generative AI and RAG's reasoning capabilities to transform natural language business intelligence questions into AWS Athena SQL queries, execute them on an S3 data lake, and generate interactive charts, and summaries to identify key trends and insights from large datasets.",
       technologies: [
         "Generative AI",
         "RAG",
@@ -204,7 +204,7 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Full-stack medical question bank platform for CCFP exam preparation, built in collaboration with a medical doctor. Features customizable practice sessions, performance analytics with learning streaks, topic-based progress tracking, and comprehensive dashboards.",
+        "Collaborated with a medical doctor to build a full-stack medical question bank platform for the Canadian College of Family Physicians (CCFP) exam preparation. Features customizable practice sessions, performance analytics with learning streaks, topic-based progress tracking, and comprehensive dashboards.",
       technologies: [
         "Next.js",
         "React",

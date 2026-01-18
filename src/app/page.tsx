@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, OptimizedAvatarImage } from "@/components/ui/avatar";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
@@ -35,7 +35,7 @@ export default function Page() {
               </div>
               <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
                 <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
-                  <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                  <OptimizedAvatarImage alt={DATA.name} src={DATA.avatarUrl} priority />
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
               </BlurFade>
