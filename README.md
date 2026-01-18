@@ -13,7 +13,9 @@
 ---
 
 <div align="center">
+<a href="https://denorjhan.com">
   <img alt="Portfolio Preview" src="https://github.com/user-attachments/assets/4f77264c-46eb-4e1c-8998-01c62b5aced7" width="90%">
+</a>
 </div>
 
 

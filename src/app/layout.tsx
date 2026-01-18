@@ -8,6 +8,7 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { FlickeringGridWrapper } from "@/components/flickering-grid-wrapper";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 export const metadata: Metadata = {
@@ -24,6 +25,14 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: `${DATA.name} - AI Engineer`,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -71,6 +80,7 @@ export default function RootLayout({
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
