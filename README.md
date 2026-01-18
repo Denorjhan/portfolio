@@ -12,8 +12,9 @@
 
 ---
 
-<!-- TODO: Add screenshot -->
-![Portfolio Preview](preview.png)
+
+https://github.com/user-attachments/assets/1b3b6b90-32e1-48f2-af86-9b51d8d6a495
+
 
 ---
 
