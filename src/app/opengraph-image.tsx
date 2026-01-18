@@ -11,10 +11,6 @@ export const size = {
 export const contentType = "image/png";
 
 export default async function Image() {
-    // Fetch avatar image from production URL
-    const avatarUrl = `${DATA.url}/me.png`;
-    const avatarData = await fetch(avatarUrl).then((res) => res.arrayBuffer());
-
     return new ImageResponse(
         (
             <div
@@ -39,54 +35,35 @@ export default async function Image() {
                         zIndex: 1,
                     }}
                 >
-                    {/* Top section with avatar */}
+                    {/* Top section */}
                     <div
                         style={{
                             display: "flex",
-                            alignItems: "center",
-                            gap: "24px",
+                            flexDirection: "column",
+                            gap: "4px",
                         }}
                     >
-
-                        <img
-                            src={`data:image/png;base64,${Buffer.from(avatarData).toString('base64')}`}
-                            alt={DATA.name}
-                            width={100}
-                            height={100}
+                        <span
                             style={{
-                                borderRadius: "50%",
-                                border: "3px solid rgba(255,255,255,0.2)",
-                            }}
-                        />
-                        <div
-                            style={{
-                                display: "flex",
-                                flexDirection: "column",
-                                gap: "4px",
+                                fontSize: "32px",
+                                fontWeight: 700,
+                                color: "#ffffff",
+                                letterSpacing: "-0.02em",
                             }}
                         >
-                            <span
-                                style={{
-                                    fontSize: "32px",
-                                    fontWeight: 700,
-                                    color: "#ffffff",
-                                    letterSpacing: "-0.02em",
-                                }}
-                            >
-                                {DATA.name}
-                            </span>
-                            <span
-                                style={{
-                                    fontSize: "20px",
-                                    fontWeight: 500,
-                                    color: "#18CCFC",
-                                    letterSpacing: "0.05em",
-                                    textTransform: "uppercase",
-                                }}
-                            >
-                                AI Engineer
-                            </span>
-                        </div>
+                            {DATA.name}
+                        </span>
+                        <span
+                            style={{
+                                fontSize: "20px",
+                                fontWeight: 500,
+                                color: "#18CCFC",
+                                letterSpacing: "0.05em",
+                                textTransform: "uppercase",
+                            }}
+                        >
+                            AI Engineer
+                        </span>
                     </div>
 
                     {/* Middle section with description */}
