@@ -12,8 +12,9 @@
 
 ---
 
-
-https://github.com/user-attachments/assets/1b3b6b90-32e1-48f2-af86-9b51d8d6a495
+<div align="center">
+  <img alt="Portfolio Preview" src="https://github.com/user-attachments/assets/4f77264c-46eb-4e1c-8998-01c62b5aced7" width="90%">
+</div>
 
 
 ---
