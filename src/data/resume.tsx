@@ -69,12 +69,16 @@ export const DATA = {
       href: "https://svmedia.com",
       badges: [],
       location: "Scarborough, Ontario",
-      title: "AI Engineer",
+      title: "Senior AI Engineer",
       logoUrl: "/svmedia.webp",
       start: "November 2021",
       end: "Present",
-      description:
-        "Architected and lead a full-stack agentic AI BI platform enabling 50+ non-technical users to query enterprise data conversationally—built with LangGraph for multi-agent orchestration, pgvector RAG for semantic search, ClickHouse for sub-second analytics, and a Next.js frontend. Built async Python FastAPIs for an internal LLMOps platform. Reduced AI infrastructure provisioning time by 80% with Terraform modules. Built CI/CD pipelines using GitHub Actions to deploy to Kubernetes.",
+      description: [
+        "Architected and lead a full-stack agentic AI BI platform enabling 50+ non-technical users to query enterprise data conversationally—built with LangGraph for multi-agent orchestration, pgvector RAG for semantic search, ClickHouse for sub-second analytics, and a Next.js frontend.",
+        "Built async Python FastAPIs for an internal LLMOps platform.",
+        "Reduced AI infrastructure provisioning time by 80% with Terraform modules.",
+        "Built CI/CD pipelines using GitHub Actions to deploy to Kubernetes.",
+      ],
     },
     {
       company: "IBM",
@@ -85,7 +89,10 @@ export const DATA = {
       logoUrl: "/ibm.webp",
       start: "May 2020",
       end: "October 2021",
-      description: "",
+      description: [
+        "Implemented comprehensive GPU monitoring and cost optimization for watsonx infrastructure, building real-time dashboards and Kubernetes auto-scaling policies that reduced compute costs by $120k annually while maintaining <200ms p95 inference latency across global production environment serving 100k+ daily requests.",
+        "Engineered automated GPU provisioning platform using Terraform and Python SDKs/APIs, enabling 10+ ML teams to self-service deploy training environments in under 10 minutes vs. 2-day manual workflow, reducing AI infrastructure team load by 45%.",
+      ],
     },
     {
       company: "Scotiabank",
@@ -96,8 +103,10 @@ export const DATA = {
       logoUrl: "/scotiabank.webp",
       start: "September 2019",
       end: "April 2020",
-      description:
-        "Decreased inbound call center ticket volume by 17% through the deployment of an AI chatbot powered by IBM Watson. Developed automated testing scripts using Selenium and Java.",
+      description: [
+        "Decreased inbound call center ticket volume by 17% through the deployment of an AI chatbot powered by IBM Watson.",
+        "Developed automated testing scripts using Selenium and Java.",
+      ],
     },
     {
       company: "Tamil One",
@@ -108,8 +117,10 @@ export const DATA = {
       logoUrl: "/tamilone.png",
       start: "August 2018",
       end: "September 2019",
-      description:
-        "Implemented comprehensive unit and regression testing with Pytest for an intranet ticketing system. Developed and implemented REST APIs, testing and documenting endpoints with Postman.",
+      description: [
+        "Implemented comprehensive unit and regression testing with Pytest for an intranet ticketing system.",
+        "Developed and implemented REST APIs, testing and documenting endpoints with Postman.",
+      ],
     },
   ],
   education: [
