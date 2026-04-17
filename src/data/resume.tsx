@@ -149,6 +149,11 @@ export const DATA = {
       logoUrl: "/aws.png",
     },
     {
+      name: "Certified Kubernetes Application Developer (CKAD)",
+      issuer: "The Linux Foundation",
+      logoUrl: "/skills/kubernetes.webp",
+    },
+    {
       name: "Cisco CCNA Routing & Switching",
       issuer: "Cisco",
       logoUrl: "/cisco.png",
